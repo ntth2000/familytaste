@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="styles2.css">
+
+    <title>Restaurent Website</title>
+</head>
+
+<body>
+    <header class="l-header">
+        <nav class="nav">
+            <a href="#" class="nav__logo">FAMILY TASTE</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">HOME</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">MENU</a></li>
+                    <li class="nav__item"><a href="#local" class="nav__link">LOCAL</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+            <!--<div class="nav__toggle-close">
+                <i class='bx bx-x'></i>
+            </div>-->
+        </nav>
+    </header>
+    <main>
+        <!--================HOME=================-->
+        <section class="home" id="home">
+            <!--<div class="home__container">-->
+            <div class="bd-container home__container">
+                <h3 class="section-subtitle home__subtitle">MENU</h3>
+                <h1 class="home__title">SPACE FOR FAMILY</h1>
+                <div><a href="#" class="button">RESERVE TABLE</a></div>
+                <a href="#" class="home__button">BROWSE MENU</a>
+            </div>
+            <img src="img/home.jpg" alt="" class="home__img">
+            <!--</div>-->
+        </section>
+
+        <!--================CHEF=================-->
+        <section class="chef" id="chef">
+            <div class="bd-container chef__container grid">
+                <img src="img/chef.jpg" alt="" class="chef__img">
+                <div class="chef__data">
+                    <h3 class="section-subtitle chef__subtitle">HEAD CHEF</h3>
+                    <h2 class="section-title chef__title">DONTE OWENS</h2>
+                    <p class="chef__description">
+                        As a reality television personality, Owens is known for his bluntness, as well as fiery temper, strict demeanour, and frequent use of profanity. He combines activities in the television, film, hospitality, and food industries.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--=============MENU=============-->
+        <section class="menu" id="menu">
+            <div class="bd-container menu__container grid">
+                <div class="menu__title">
+                    <h2 class="section-title menu-title">A BRILLIANT MENU</h2>
+                    <p class="menu__title-description">
+                        Steamed, char-grilled, pan-fried, stir-fried, or slow-cooked.
+                    </p>
+                </div>
+                <div class="menu__data grid">
+                    <div class="grid dinner__menu">
+                        <div class="menu__subsection">
+                            <h2 class="section-subtitle">DINNER</h2>
+                            <div class="menu__detail">
+                                <h3 class="dinner__name">Ensalada de Jicama $20</h3>
+                                <p class="dinner__description">gem lettuce, avocado, radish, lime viniagrette</p>
+                            </div>
+                            <div class="menu__detail">
+                                <h3 class="dinner__name">Coctel de Camaron $15</h3>
+                                <p class="dinner__description">shrimp, avocado, red onion, spicy burnt tomato-lime marinade
+                                </p>
+                            </div>
+                            <a href="#" class="menu__more">View more</a>
+                        </div>
+                        <div class="menu__img1">
+                            <div class="main__img"><img class="maindish" src="img/maindish1.jpg" alt=""></div>
+                            <div class="small__img"><img class="smalldish" src="img/smalldish1.jpg" alt=""></div>
+
+                        </div>
+                    </div>
+                    <div class="grid dinner__menu">
+                        <div class="menu__subsection menu-grid">
+                            <h2 class="section-subtitle">DESSERTS</h2>
+                            <div class="menu__detail">
+                                <h3 class="dinner__name">La Paloma Single $10</h3>
+                                <p class="dinner__description">bourbon or rye with a touch of simple syrup</p>
+                            </div>
+                            <div class="menu__detail">
+                                <h3 class="dinner__name">Ole’ Fashioned $10.5</h3>
+                                <p class="dinner__description">pueblo viejo tequila, grapefruit, agave, lime, soda</p>
+                            </div>
+                            <a href="#" class="menu__more">View more</a>
+                        </div>
+                        <div class="menu__img2">
+                            <div class="main__img"><img class="maindish" src="img/maindish2.jpg" alt=""></div>
+                            <div class="small__img"><img class="smalldish" src="img/smalldish2.jpg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--================RESERVE=================-->
+        <section class="reserve" id="reserve">
+            <div class="reserve__container bd-container">
+                <h3 class="section-subtitle reserve__subtitle">RESERVE</h3>
+                <h1 class="section-title reserve__title">SKIP THE LINE</h1>
+
+                <div class="reserve__button"><a href="#" class="button">RESERVE TABLE</a></div>
+                <p class="reserve__description">
+                    You will be redirected to opentable.com to reserve table.
+                </p>
+            </div>
+            <img src="img/reserve.jpg" alt="" class="reserve__img">
+        </section>
+
+        <!--================FARM=================-->
+        <section class="farm" id="farm">
+            <div class="farm__container">
+                <div class="farm__data  bd-container">
+                    <h3 class="section-subtitle farm__data-subtitle">LOCAL</h3>
+                    <h2 class="section-title farm__data-title">FARMED FRESH</h2>
+                    <p class="farm__description">
+                        Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Paragraph Text. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros this is a link. Cras justo odio, dapibus ac
+                        facilisis in, egestas eget quam. Maecenas sed diam eget risus varius blandit sit amet non magna
+                    </p>
+                </div>
+                <div class="farm__img-container">
+                    <div class="farm__img-wrapper">
+                        <div class="farm__img5"><img class="farm__img" src="img/vegetable1.jpg" alt=""></div>
+                        <div class="farm__img2"><img class="farm__img" src="img/vegetable2.jpg" alt=""></div>
+                        <div class="farm__img3"><img class="farm__img" src="img/vegetable3.jpg" alt=""></div>
+                        <div class="farm__img4"><img class="farm__img" src="img/vegetable4.jpg" alt=""></div>
+                        <div class="farm__img1"><img class="farm__img" src="img/vegetable5.jpg" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="farm__data  bd-container">
+                    <h3 class="section-subtitle farm__data-subtitle">CATERING</h3>
+                    <h2 class="section-title farm__data-title">CATER TO THE MULTITUDES</h2>
+                    <p class="farm__description">
+                        Paragraph Text. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cras, dapibus ac facilisis in, meet head chef - Donte Owens.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="l-footer">
+        <section class="footer" id="footer">
+            <div class="bd-container footer__container">
+                <div class="footer__data">
+                    <a href="#" class="footer__logo">FAMILY TASTE</a>
+                    <p class="footer__description">Restaurant</p>
+                    <p class="footer__detail"><i class='bx bx-map'></i> <span class="footer__address"> D-09, Eastern Business District, LBS Road, Bhandup West, Mumbai - 400078, MH IN</span></p>
+                    <p class="footer__detail"><i class='bx bx-phone'></i> <span class="footer__phone">123456789</span></p>
+                    <p class="footer__detail"><i class='bx bx-mail-send'></i> <span class="footer__mail">infor@familytaste.com</span></p>
+                </div>
+                <div class="footer__copy">&#169; Urbandine Template by Weebly - Recreated by Huyen Nguyen</div>
+            </div>
+        </section>
+    </footer>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--========== JAVASCRIPT=============-->
+    <script src="app2.js"></script>
+</body>
+
+</html>
